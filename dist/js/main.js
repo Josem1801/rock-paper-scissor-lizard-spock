@@ -54,13 +54,13 @@ function playGame(choice) {
         //Si se cumple la condicion
         switch(choice + "-" +computerChoice){
             case 'rock-lizard':
-            case 'rock-paper':
+            case 'rock-scissor':
             case 'lizard-spock':
             case 'lizard-paper':
             case 'spock-scissor':
             case 'spock-rock':
             case 'scissor-paper':
-            case 'scissor-spock':
+            case 'scissor-lizard':
             case 'paper-rock':
             case 'paper-spock':
                 setTimeout(winner, 3000, scoreUser, "YOU WIN", 1)
